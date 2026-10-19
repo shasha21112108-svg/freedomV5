@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Freedom Frequencies FF-001 · The Awakening</title>
+<meta name="description" content="Official information for Freedom Frequencies FF-001, Saturday 24 October 2026. Lineup, location, rules and safety.">
+<meta property="og:title" content="Freedom Frequencies FF-001">
+<meta property="og:description" content="The Awakening · Saturday 24 October 2026">
+<!-- Fonts: Unbounded (headings) + Manrope (text) from Google Fonts. Fallbacks are in style.css. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&family=Unbounded:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%2305060A'/><text x='16' y='22' font-size='15' font-family='Arial' font-weight='700' fill='%2300F5FF' text-anchor='middle'>FF</text></svg>">
+<!-- LINK PREVIEW IMAGE (optional). Once published, you can add:
+     <meta property="og:image" content="https://YOUR-SITE-ADDRESS/images/preview.jpg"> -->
+<style>
+/* ===== COLOURS: change them here, everything updates ===== */
+:root{
+  --black:#05060A; --navy:#0A0D18; --cyan:#00F5FF; --violet:#8B5CFF;
+  --white:#F2F4F8; --muted:#9aa4bd; --line:rgba(0,245,255,.22);
+  --display:'Unbounded','Arial Black',sans-serif;
+  --text:'Manrope',system-ui,Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{background:var(--black);color:var(--white);font:400 1rem/1.65 var(--text);overflow-x:hidden}
+a{color:var(--cyan)}
+:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:var(--cyan);color:var(--black);padding:8px;z-index:99}
+.label,nav a,.btn,dt,.menu-btn{font-size:.75rem;letter-spacing:.18em;text-transform:uppercase}
+.label{color:var(--violet);font-weight:600}
+
+/* Header */
+.site-header{position:fixed;inset:0 0 auto;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:14px 20px;transition:background .3s}
+.site-header.solid{background:rgba(5,6,10,.92);border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--white);font:700 .8rem var(--display)}
+.mark{display:grid;place-items:center;width:38px;height:38px;border:1px solid var(--cyan);color:var(--cyan);font:700 .85rem var(--display);box-shadow:0 0 14px rgba(0,245,255,.3)}
+.brand-name{display:none}
+nav a{color:var(--white);text-decoration:none;padding:10px 12px;display:inline-block;border-bottom:1px solid transparent}
+nav a:hover,nav a.active{color:var(--cyan);border-color:var(--cyan)}
+.menu-btn{display:none;min-height:44px;padding:0 16px;background:none;color:var(--cyan);border:1px solid var(--cyan);cursor:pointer;font-family:var(--text)}
+@media(max-width:859px){
+  .js .menu-btn{display:block}
+  nav{position:absolute;top:100%;left:0;right:0;background:var(--navy);display:flex;flex-direction:column;padding:8px 20px 16px;border-bottom:1px solid var(--line)}
+  .js nav{display:none}.js nav.open{display:flex}
+  nav a{padding:16px 0;font-size:.9rem}
+}
+@media(min-width:600px){.brand-name{display:inline}}
+
+/* Hero: the one place we spend the glow */
+.hero{position:relative;min-height:100svh;display:grid;place-items:center;text-align:center;padding:100px 20px 60px;overflow:hidden;background:radial-gradient(ellipse at 50% 30%,rgba(139,92,255,.22),transparent 60%),var(--navy)}
+.portal{position:absolute;z-index:0;width:min(150vw,760px);aspect-ratio:1;left:50%;top:50%;transform:translate(-50%,-50%);opacity:.55;border-radius:50%;
+  background:repeating-conic-gradient(from 0deg,rgba(0,245,255,.55) 0 1deg,transparent 1deg 7.5deg,rgba(139,92,255,.5) 7.5deg 8.5deg,transparent 8.5deg 15deg);
+  -webkit-mask:radial-gradient(circle,transparent 18%,#000 19% 20%,transparent 21% 38%,#000 39% 41%,transparent 42% 62%,#000 63% 66%,transparent 67% 80%,#000 81% 82%,transparent 83%);
+  mask:radial-gradient(circle,transparent 18%,#000 19% 20%,transparent 21% 38%,#000 39% 41%,transparent 42% 62%,#000 63% 66%,transparent 67% 80%,#000 81% 82%,transparent 83%);
+  animation:spin 120s linear infinite;filter:drop-shadow(0 0 12px rgba(0,245,255,.5))}
+.hero::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,transparent 15%,rgba(5,6,10,.88) 52%)}
+.hero-text>*:not(.emblem){position:relative;z-index:2}
+.emblem{position:relative;width:min(90vw,560px);aspect-ratio:1000/634;margin:0 auto 22px}
+/* Hero logo: works for both the temporary text mark and a real <img> */
+.hero-logo{position:absolute;inset:0;margin:auto;z-index:2;width:100%;height:100%;object-fit:contain;mix-blend-mode:screen;animation:rise 1.2s both}
+span.hero-logo{display:grid;place-items:center;border:1px solid var(--cyan);color:var(--cyan);font:700 clamp(1.4rem,6vw,2.2rem) var(--display);background:rgba(5,6,10,.6)}
+.brand img{height:36px;width:auto}
+.hero-text{position:relative;z-index:2;max-width:640px}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg)}}
+h1{font:700 clamp(2rem,9vw,4.6rem)/1.02 var(--display);margin:14px 0;animation:rise 1s both}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}}
+.theme{font:400 clamp(.9rem,3.4vw,1.3rem) var(--display);color:var(--cyan);letter-spacing:.08em}
+.date{margin-top:18px;font-weight:600;letter-spacing:.14em}
+.venue{color:var(--muted)}
+.intro{margin:18px auto 28px;color:var(--muted);max-width:50ch}
+.btn{display:inline-block;padding:16px 28px;min-height:48px;border:1px solid var(--cyan);color:var(--cyan);text-decoration:none;font-weight:600;transition:background .25s,color .25s}
+.btn:hover{background:var(--cyan);color:var(--black)}
+
+/* Quick info */
+.quick{display:grid;grid-template-columns:1fr 1fr;border-block:1px solid var(--line);background:var(--navy)}
+.quick div{padding:22px 20px;border:1px solid rgba(0,245,255,.08)}
+.quick h2{font:600 .7rem var(--text);letter-spacing:.18em;color:var(--violet);margin:6px 0}
+.ico{color:var(--cyan);font-size:1.3rem}
+@media(min-width:860px){.quick{grid-template-columns:repeat(4,1fr)}}
+
+/* Sections */
+.section{max-width:960px;margin:auto;padding:72px 20px 24px}
+.title{font:700 clamp(1.5rem,5vw,2.4rem)/1.15 var(--display);margin:8px 0 28px}
+.btn+*,.facts+.btn{margin-top:24px}
+
+/* Lineup: time is the main thing */
+.lineup{list-style:none;padding:0;border-left:1px solid var(--violet)}
+.artist{display:grid;grid-template-columns:96px 1fr;gap:6px 16px;padding:0 0 36px 20px;position:relative}
+.artist::before{content:"";position:absolute;left:-5px;top:8px;width:9px;height:9px;background:var(--cyan);border-radius:50%}
+.time{grid-column:1/-1;font:700 1.15rem var(--display);color:var(--cyan)}
+.to{font:400 .75rem var(--text);color:var(--muted);margin:0 10px}
+.photo{aspect-ratio:1;display:grid;place-items:center;border:1px dashed var(--violet);color:var(--violet);font-size:.7rem;letter-spacing:.2em;background:var(--navy)}
+.artist img{width:100%;aspect-ratio:1;object-fit:cover}
+.bio h3{font:700 1.1rem var(--display);margin-bottom:6px}
+.bio p{color:var(--muted)}
+@media(min-width:700px){.artist{grid-template-columns:70px 120px 1fr;align-items:start}.time{grid-column:auto;grid-row:1;font-size:1rem}.to{display:block;margin:4px 0}}
+
+/* Facts lists */
+.facts{display:grid;gap:0}
+.facts div{padding:16px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+dt{color:var(--violet);font-weight:600}
+dd{margin-top:4px}
+@media(min-width:700px){.facts div{display:grid;grid-template-columns:200px 1fr}}
+
+/* Rules */
+.rules details{border-bottom:1px solid rgba(255,255,255,.1)}
+summary{cursor:pointer;padding:18px 28px 18px 0;font-weight:600;list-style:none;position:relative;min-height:48px}
+summary::after{content:"+";position:absolute;right:4px;color:var(--cyan)}
+details[open] summary::after{content:"−"}
+details p{padding-bottom:18px;color:var(--muted)}
+
+/* Safety */
+.emergency{border:1px solid var(--cyan);padding:20px;margin-bottom:20px;background:rgba(0,245,255,.05)}
+.emergency h3{font:700 .8rem var(--display);letter-spacing:.1em;margin-bottom:6px}
+
+/* Footer */
+footer{margin-top:72px;padding:48px 20px;text-align:center;border-top:1px solid var(--line);background:var(--navy);color:var(--muted)}
+.foot-brand{font:700 1rem var(--display);color:var(--white)}
+.slogan{margin-top:16px;color:var(--violet);letter-spacing:.2em;font-size:.75rem}
+
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+
+.photo{position:relative;overflow:hidden}.photo img{position:absolute;inset:0;height:100%}
+details ul{padding:0 0 18px 20px;color:var(--muted)}details li{margin-bottom:8px}
+</style>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<a class="skip" href="#event">Skip to content</a>
+
+<!-- SECTION A: HEADER -->
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="Freedom Frequencies, back to top">
+    <span class="mark">FF</span><span class="brand-name">FREEDOM FREQUENCIES</span>
+  </a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="nav">MENU</button>
+  <nav id="nav" aria-label="Main">
+    <a href="#event">EVENT</a><a href="#lineup">LINEUP</a><a href="#location">LOCATION</a>
+    <a href="#rules">RULES</a><a href="#availability">AVAILABILITY</a><a href="#contact">CONTACT</a>
+  </nav>
+</header>
+
+<main id="top">
+
+<!-- SECTION B: HERO -->
+<section class="hero">
+  <!-- CSS artwork. To use your own artwork instead, add images/event-artwork.jpg and put it in .hero-art in style.css -->
+  <div class="hero-text">
+    <div class="emblem">
+      <div class="portal" aria-hidden="true"></div>
+      <img class="hero-logo" src="images/logo.png" alt="Freedom Frequencies logo: winged emblem with an eye and sound wave" width="1000" height="634">
+    </div>
+    <p class="label">FF-001 / THE AWAKENING</p>
+    <h1>FREEDOM<br>FREQUENCIES</h1>
+    <p class="theme">THE AWAKENING</p>
+    <p class="date">SATURDAY · 24 OCTOBER 2026</p>
+    <p class="venue">Le Petit Paradis, New Grove</p>
+    <p class="intro">The Awakening marks the beginning of a journey where music, freedom, and individuality collide.<br>Tune in. Break free. Awaken.</p>
+    <a class="btn" href="#lineup">EXPLORE EVENT INFO</a>
+  </div>
+</section>
+
+<!-- SECTION C: QUICK INFO -->
+<section id="event" class="quick" aria-label="Quick information">
+  <div><span class="ico" aria-hidden="true">◇</span><h2>DATE</h2><p>Saturday<br>24 October 2026</p></div>
+  <div><span class="ico" aria-hidden="true">◷</span><h2>TIME</h2><p>9 PM to 5:30 AM<br>Gates open 8 PM</p></div>
+  <div><span class="ico" aria-hidden="true">⌖</span><h2>VENUE</h2><p>Le Petit Paradis<br>New Grove</p></div>
+  <div><span class="ico" aria-hidden="true">✦</span><h2>GOOD TO KNOW</h2><p>BYO + CAMPING</p></div>
+</section>
+
+<!-- SECTION D: LINEUP, in playing order. Photos: images/DJpic1.jpg, DJpic2.jpg ... (placeholder shows until the file exists) -->
+<section id="lineup" class="section">
+  <p class="label">TRANSMITTING THROUGH THE NIGHT</p>
+  <h2 class="title">THE FREQUENCY LINEUP</h2>
+  <ol class="lineup">
+    <li class="artist">
+      <div class="time">01</div>
+      <div class="photo"><span>PHOTO</span><img src="images/DJpic1.jpg" alt="Portrait of ALSTR" width="400" height="400" loading="lazy" onerror="this.remove()"></div>
+      <div class="bio"><h3>ALSTR</h3><p>Psytech · Psytrance · Driving</p></div>
+    </li>
+    <li class="artist">
+      <div class="time">02</div>
+      <div class="photo"><span>PHOTO</span><img src="images/DJpic2.jpg" alt="Portrait of YABADA" width="400" height="400" loading="lazy" onerror="this.remove()"></div>
+      <div class="bio"><h3>YABADA</h3><p>Minimal · Psytech · Bass</p></div>
+    </li>
+    <li class="artist">
+      <div class="time">03</div>
+      <div class="photo"><span>PHOTO</span><img src="images/DJpic3.jpg" alt="Portrait of OBSID" width="400" height="400" loading="lazy" onerror="this.remove()"></div>
+      <div class="bio"><h3>OBSID</h3><p>Psytrance · Hitech · Mantra</p></div>
+    </li>
+    <li class="artist">
+      <div class="time">04</div>
+      <div class="photo"><span>PHOTO</span><img src="images/DJpic4.jpg" alt="Portrait of TKM" width="400" height="400" loading="lazy" onerror="this.remove()"></div>
+      <div class="bio"><h3>TKM</h3><p>Techno · Acid · Groove</p></div>
+    </li>
+    <li class="artist">
+      <div class="time">05</div>
+      <div class="photo"><span>PHOTO</span><img src="images/DJpic5.jpg" alt="Portrait of ArkiTek" width="400" height="400" loading="lazy" onerror="this.remove()"></div>
+      <div class="bio"><h3>ArkiTek</h3><p>Hard techno · Dubstep · Chaos</p></div>
+    </li>
+  </ol>
+</section>
+
+<!-- SECTION E: LOCATION -->
+<section id="location" class="section">
+  <p class="label">ARRIVAL</p>
+  <h2 class="title">LOCATION</h2>
+  <dl class="facts">
+    <div><dt>VENUE</dt><dd>Le Petit Paradis, New Grove</dd></div>
+    <div><dt>PARKING</dt><dd>Parking inside is limited. Parking along the trail to the venue is possible.</dd></div>
+    <div><dt>CHECK-IN</dt><dd>Check-in is through ID staff (guestlist).</dd></div>
+    <div><dt>ARRIVAL</dt><dd>Gates open at 8 PM. After the gates close, staff information for latecomers will be posted on the gate.</dd></div>
+    <div><dt>RE-ENTRY</dt><dd>Exit and re-entry are possible. Wristbands must be intact.</dd></div>
+  </dl>
+  <a class="btn" href="https://maps.app.goo.gl/9esqu748fSuVAxm89" target="_blank" rel="noopener noreferrer">OPEN IN GOOGLE MAPS</a>
+</section>
+
+<!-- SECTION F: RULES -->
+<section id="rules" class="section">
+  <p class="label">RESPECT THE FREQUENCY</p>
+  <h2 class="title">RULES</h2>
+  <div class="rules">
+    <details open><summary>Entry and ID</summary><p>Your name must be on the guestlist. Guests of an invitee must also be on the list. Keep your ID with you, as you may be asked to show it.</p></details>
+    <details><summary>Prohibited items</summary><p>Not permitted: weapons of any kind, hazardous materials, hard drugs and illicit substances.</p></details>
+    <details><summary>Conduct</summary><ul><li>Treat all attendees, DJs, staff, and organizers with respect.</li><li>Discrimination, bullying, intimidation, threats, and violence will not be tolerated.</li><li>Follow venue regulations, safety instructions, and staff directions.</li><li>Do not damage venue property, equipment, or personal belongings.</li><li>Keep the venue clean and dispose of rubbish responsibly.</li><li>Do not interfere with emergency exits, safety equipment, or event operations.</li><li>Notify event staff of medical emergencies, safety hazards, or situations requiring assistance.</li><li>Violations may result in refusal of entry, removal from the event, or a ban from future events.</li></ul></details>
+    <details><summary>Anti-harassment rules</summary><ul><li>Harassment, stalking, bullying, and intimidation are strictly prohibited.</li><li>Unwanted sexual advances, persistent flirting after rejection, and inappropriate comments are unacceptable.</li><li>Discriminatory behavior or remarks based on gender, sexuality, race, religion, disability, or background will not be tolerated.</li><li>Do not retaliate against anyone who reports harassment or seeks assistance.</li><li>Report incidents to an event organizer or staff member. Reports will be taken seriously and handled as discreetly as reasonably possible.</li><li>Depending on the severity of the incident, appropriate action may include removal from the event or exclusion from future events.</li></ul></details>
+    <details><summary>Consent rules</summary><ul><li>Always obtain consent before touching someone or initiating intimate contact.</li><li>Consent must be freely given, clear, and mutual. Silence or lack of resistance does not constitute consent.</li><li>Respect a person&rsquo;s refusal immediately, without pressure, persuasion, or repeated advances.</li><li>Consent can be withdrawn at any time, and all activity must stop immediately when it is withdrawn.</li><li>Someone who is unconscious, incapacitated, or too impaired to make an informed decision cannot give valid consent.</li><li>Attending the event, dancing, dressing a certain way, or being friendly does not imply consent.</li><li>Obtain permission before photographing or filming identifiable attendees, and never share intimate or sensitive images without consent.</li></ul></details>
+    <details><summary>Photography, filming and social media</summary><ul><li>By attending the event, you acknowledge that photography and video recording may take place throughout the event.</li><li>Your image, likeness, or appearance may be captured and used by Freedom Frequencies for promotional, marketing, and advertising purposes across its website and social media platforms.</li><li>You may capture and share your own photos and videos, and don&rsquo;t forget to tag @freedom_frequencies.wav on Instagram so we can share your moments and keep the frequency alive!</li><li>Please respect other attendees&rsquo; privacy and personal boundaries when taking or sharing photos and videos, particularly in sensitive situations.</li></ul></details>
+    <details><summary>Re-entry</summary><p>Exit and re-entry are possible. Wristbands must be intact.</p></details>
+  </div>
+</section>
+
+<!-- SECTION G: SAFETY -->
+<section id="availability" class="section">
+  <p class="label">LOOK AFTER EACH OTHER</p>
+  <h2 class="title">AVAILABILITY</h2>
+  <div class="emergency">
+    <h3>EMERGENCY CONTACTS</h3>
+    <p>Hamza · <a href="tel:+23057870064">+230 5787 0064</a></p>
+    <p>Junaid · <a href="tel:+23058550398">+230 5855 0398</a></p>
+  </div>
+  <dl class="facts">
+    <div><dt>WATER AND TOILETS</dt><dd>Water and toilets are available on site.</dd></div>
+  </dl>
+</section>
+
+<!-- SECTION H: CONTACT -->
+<section id="contact" class="section">
+  <p class="label">STAY TUNED</p>
+  <h2 class="title">CONTACT AND UPDATES</h2>
+  <dl class="facts">
+    <div><dt>INSTAGRAM</dt><dd><a href="https://www.instagram.com/freedom_frequencies.wav" target="_blank" rel="noopener noreferrer">@freedom_frequencies.wav</a></dd></div>
+    <div><dt>LOST PROPERTY</dt><dd>Lost something? Message staff with a description of the item.</dd></div>
+    <div><dt>UPDATES</dt><dd>Follow us on Instagram for the latest updates and announcements.</dd></div>
+  </dl>
+</section>
+</main>
+
+<!-- SECTION I: FOOTER -->
+<footer>
+  <p class="foot-brand">FREEDOM FREQUENCIES</p>
+  <p>FF-001 · SATURDAY · 24 OCTOBER 2026</p>
+  <p><a href="https://www.instagram.com/freedom_frequencies.wav" target="_blank" rel="noopener noreferrer">INSTAGRAM</a></p>
+  <p class="slogan">TUNE BEYOND REALITY.</p>
+</footer>
+
+<script>
+// 1. Mobile menu: open/close, and close after tapping a link
+const btn = document.querySelector('.menu-btn');
+const nav = document.getElementById('nav');
+btn.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  btn.setAttribute('aria-expanded', open);
+  btn.textContent = open ? 'CLOSE' : 'MENU';
+});
+nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+  nav.classList.remove('open'); btn.setAttribute('aria-expanded', false); btn.textContent = 'MENU';
+}));
+
+// 2. Header turns solid after scrolling
+const header = document.querySelector('.site-header');
+const onScroll = () => header.classList.toggle('solid', window.scrollY > 40);
+onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+
+// 3. Highlight the nav link of the section currently in view
+const links = [...nav.querySelectorAll('a')];
+const io = new IntersectionObserver(entries => entries.forEach(e => {
+  if (e.isIntersecting) links.forEach(l => l.classList.toggle('active', l.hash === '#' + e.target.id));
+}), { rootMargin: '-40% 0px -55% 0px' });
+links.forEach(l => { const s = document.querySelector(l.hash); if (s) io.observe(s); });
+
+</script>
+</body>
+</html>
